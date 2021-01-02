@@ -46,7 +46,7 @@ try:
             driver.find_element_by_name("password").send_keys(Keys.ENTER)
             
             try:
-                if driver.find_element_by_id("slfErrorAlert").text == "Please wait a few minutes before you try again.":
+                if driver.find_element_by_id("slfErrorAlert").text == "Please wait for a while before trying again.":
                     print("F")
                     exit_prog()
             

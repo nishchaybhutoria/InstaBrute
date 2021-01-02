@@ -47,7 +47,7 @@ try:
             
             try:
                 if driver.find_element_by_id("slfErrorAlert").text == "Please wait a few minutes before you try again.":
-                    print("Instagram currently isn't allowing us to enter a password for this account, try again later.")
+                    print("F")
                     exit_prog()
             
             except NoSuchElementException:
